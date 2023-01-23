@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\TipoCliente.cs" />
+  </ItemGroup>
+
+  <ItemGroup>    <ProjectReference Include="..\..\..\..\building blocks\JS.Core\JS.Core.csproj" />
+
+  </ItemGroup>
+
+</Project>
